@@ -2,6 +2,6 @@ data "aws_availability_zones" "available" {
   state = "available"
 }
 
-data "aws-vpc" "default" {
+data "aws_vpc" "default" {
   default = true
 }
