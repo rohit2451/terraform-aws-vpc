@@ -27,6 +27,6 @@ output "database_subnet_group_name" {
   value = aws_db_subnet_group.default.name
 }
 
-output "aws_vpc_peering_id" {
-  value = aws_vpc_peering_connection.peering[count.index].id
-}
+# output "aws_vpc_peering_id" {
+#   value = aws_vpc_peering_connection.peering[count.index].id
+# }
